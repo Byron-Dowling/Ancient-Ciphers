@@ -14,4 +14,4 @@ Collection of programs that implement various ancient ciphers
 
 
 ### Caesar Cipher
-![CCI](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Caesar%20Cipher/1200px-Caesar_cipher_left_shift_of_3.svg.png?raw=true)
+![CCI](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Caesar%20Cipher/Caesar_substition_cipher-750x393.png?raw=true)
