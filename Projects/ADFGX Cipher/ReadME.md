@@ -17,7 +17,7 @@ The intent of this program is to implement an ADFGX cipher that will both encryp
 
 ### Instructions
 
-- The program can be run from your machine's console or from this replit project: https://repl.it/@ByronDowling/ADFGX-Cipher-Program#adfgx.py
+- The program can be run from your machine's console or from this replit project: https://replit.com/@ByronDowling/ADFGX-Cipher-2#ADFGX.py
 - The program expects an input file and output file destination, a command, either Encrypt or Decrypt, and a keyword 1 and keyword 2 with non-repeating characters
 
 ### Example Parameters:
