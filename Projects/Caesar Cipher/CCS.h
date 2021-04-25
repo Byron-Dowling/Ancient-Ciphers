@@ -51,17 +51,17 @@ public:
 	CaesarCipher()
 	{
 		Alphabet = " ABCDEFGHIJKLMNOPQRSTUVWXYZ";				// String Alphabet accounting for empty spaces as well
-		Frequency.resize(27);									// Initializing an empty array to be used to count occurences of letters
-		FrequencyAnalysisOrder = "ETAOINSHRDLCUMWFGYPBVKJXQZ";	// Order for most occuring letters in Frequency Analysis
+		Frequency.resize(27);							// Initializing an empty array to be used to count occurences of letters
+		FrequencyAnalysisOrder = "ETAOINSHRDLCUMWFGYPBVKJXQZ";			// Order for most occuring letters in Frequency Analysis
 	}
 
 	void PushToStack(string CT, int num)
 	{
-		EncryptedStack[num] = CT;								// Pushing the CipherText strings to the Array
+		EncryptedStack[num] = CT;						// Pushing the CipherText strings to the Array
 	}
 
-	void SetSampleSize(int num)									// Setting the number of Test Cases with the read in value
-	{															// This is used as the size variable for the Dynamic Memory
+	void SetSampleSize(int num)							// Setting the number of Test Cases with the read in value
+	{										// This is used as the size variable for the Dynamic Memory
 		TestCases = num;
 		EncryptedStack = new string[TestCases];
 		DecryptedStack = new string[TestCases];
@@ -75,7 +75,7 @@ public:
 	void Print(ofstream& out);
 
 
-	~CaesarCipher()												// Deallocating Memory upon completion
+	~CaesarCipher()									// Deallocating Memory upon completion
 	{
 		delete[] EncryptedStack;
 		delete[] DecryptedStack;
