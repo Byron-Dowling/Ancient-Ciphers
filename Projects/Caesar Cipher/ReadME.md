@@ -23,5 +23,6 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
 - Additionally, this program does not sovle every Ceasar Cipher, although this is not diffcult to modify, the orignal goal was to shift the text based off the assumption that with E being the most common letter, whatever the frequency analysis revealed as the top letter should be shifted to E. 
 - After shifting the text this way, the program will ask the user to answer if the text decrypted successfully or not and writes the results to a file.
 
-- Example Screenshot:
-    - 
+### Example Screenshot:
+
+![image of SS1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Caesar%20Cipher/Caesar%20Cipher%20Snippet.JPG?raw=true)
