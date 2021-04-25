@@ -1,10 +1,8 @@
 /*
 	Author:           Byron Dowling
 	Email:            byrondowling7@gmail.com
-	Label:            DSP3
 	Title:            Caesar Cipher
-	Course:           2433
-	Semester:         Fall 2020
+
 
 	Description:
 		 Program reads from a file a number of test cases and strings of
