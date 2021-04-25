@@ -20,6 +20,4 @@ Collection of programs that implement various ancient ciphers
 ![VG1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Vigenere%20Cipher/TR%20Snippet.JPG?raw=true)
 
 ### ADFGX Cipher
-![AD1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%204.JPG?raw=true)
-![AD2](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%205.JPG?raw=true)
-![AD3](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%206.JPG?raw=true)
+![AD1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%207.JPG?raw=true)
