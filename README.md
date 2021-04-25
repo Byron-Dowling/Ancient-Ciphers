@@ -17,8 +17,7 @@ Collection of programs that implement various ancient ciphers
 ![CCI](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Caesar%20Cipher/Caesar_substition_cipher-750x393.png?raw=true)
 
 ### Vigenere Cipher
-![VG1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Vigenere%20Cipher/Vigenere%20Snippet%201.JPG?raw=true)
-![VG2](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Vigenere%20Cipher/Vigenere%20Snippet%202.JPG?raw=true)
+![VG1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Vigenere%20Cipher/TR%20Snippet.JPG?raw=true)
 
 ### ADFGX Cipher
 ![AD1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%204.JPG?raw=true)
