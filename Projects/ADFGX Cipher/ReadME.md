@@ -25,3 +25,4 @@ The intent of this program is to implement an ADFGX cipher that will both encryp
     - `run = "python3 adfgx.py input_file=encrypted.txt output_file=decrypted.txt operation=Decrypt keyword1=turing keyword2=enigma"`
 
 ![image of SS](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet.JPG?raw=true)
+![Image of SS2](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%202.JPG?raw=true)
