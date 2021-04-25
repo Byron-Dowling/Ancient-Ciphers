@@ -23,3 +23,6 @@ The Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple 
 |   13   | Dictionary.txt          | Larger Dictionary File of 466K English Words       |
 
 
+### Approach:
+
+The end goal of this program is to allow the user to select the method of how they want to solve the cipher. For now, the current approach is to perform an index of coincidence analysis on the encrypted text to determine the key length. Upon completion, the program will perform a dictionary attack on the key pulling words from the dictionary that are of the same length as the key length that scored the highest I.O.C value. Another approach is to also calculate the I.O.C value of the most likely key length and attempt to crack a single sequence of the message and narrow down the shift possibilities. From here, all the narrowed down shifts will be attempted and then the words will be looked up in a Hash Table to see if they are english matches. 
