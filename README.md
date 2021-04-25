@@ -9,4 +9,4 @@ Collection of programs that implement various ancient ciphers
 | :---: | --------------- | ------------------------------------------ | ---------|
 |   1   | Caesar Cipher   | Polyalphabetic Shift Cipher                | C++      |
 |   2   | Vigenere Cipher | Polyalphabetic Shift Cipher With Key       | C++      |
-|   3   | ADFGX Cipher    | Substituion Cipher Using Polybius Square   | Python   |
+|   3   | ADFGX Cipher    | Substitution Cipher Using Polybius Square  | Python   |
