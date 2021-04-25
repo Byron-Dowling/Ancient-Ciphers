@@ -19,6 +19,7 @@ The Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple 
 |   9    | VCT3.txt                | Input file that was used to test                   |
 |   10   | VCT4.txt                | Input file that was used to test                   |
 |   11   | VCT5.txt                | Input file that was used to test                   |
-|   12   | Words.txt               | Dictionary File of English Words                   |
+|   12   | Words.txt               | Dictionary File of 134K English Words              |
+|   13   | Dictionary.txt          | Larger Dictionary File of 466K English Words       |
 
 
