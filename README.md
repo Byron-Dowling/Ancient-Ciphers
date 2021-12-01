@@ -9,10 +9,11 @@ Collection of programs that implement various ancient ciphers
 | :---: | --------------- | ------------------------------------------- | -------- | ----------- |
 |   1   | Caesar Cipher   | Polyalphabetic Substitution Cipher          | C++      |  Complete   |
 |   2   | Vigenere Cipher | Polyalphabetic Substitution Cipher With Key | C++      | In-Progress |
-|   3   | ADFGX Cipher    | Substitution Cipher Using Polybius Square   | Python   |  Complete   |
-|   4   | ADFGX Cipher    | Substitution Cipher Using Polybius Square   | C++      | In-Progress |
-|   5   | Playfair Cipher | Substitution Cipher Using Polybius Square   | Python   | In-Progress |
-|   6   | Enigma Machine  | Electrical Rotor Polyalphabetic Cipher      | Python   |  On Deck    |
+|   3   | Vigenere Cipher | [Polyalphabetic Substitution Cipher With Key](https://github.com/Byron-Dowling/4143-CPL-Dowling/tree/main/Python/Vigenere%20Cracking%20Project) | Python   |  Complete   |
+|   4   | ADFGX Cipher    | Substitution Cipher Using Polybius Square   | Python   |  Complete   |
+|   5   | ADFGX Cipher    | Substitution Cipher Using Polybius Square   | C++      | In-Progress |
+|   6   | Playfair Cipher | Substitution Cipher Using Polybius Square   | Python   | In-Progress |
+|   7   | Enigma Machine  | Electrical Rotor Polyalphabetic Cipher      | Python   |  On Deck    |
 
 
 
