@@ -1,1 +1,3 @@
-C++ implementation of ADFGX Cipher
+C++ implementation of ADFGX Cipher\
+\
+Decryption Process is not complete yet, but encryption is working
