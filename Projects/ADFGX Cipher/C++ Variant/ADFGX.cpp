@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "Polybius_Class.h"
+#include "ADFGX.h"
 
 using namespace std;
 
