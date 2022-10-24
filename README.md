@@ -13,7 +13,7 @@ Collection of programs that implement various ancient ciphers
 |   4   | ADFGX Cipher    | [Substitution Cipher Using Polybius Square](https://github.com/Byron-Dowling/Ancient-Ciphers/tree/main/Projects/ADFGX%20Cipher)   | Python   |  Complete   |
 |   5   | ADFGX Cipher    | [Substitution Cipher Using Polybius Square](https://github.com/Byron-Dowling/Ancient-Ciphers/tree/main/Projects/ADFGX%20Cipher/C%2B%2B%20Variant)   | C++      | In-Progress |
 |   6   | Playfair Cipher | Substitution Cipher Using Polybius Square   | Python   | In-Progress |
-|   7   | Enigma Machine  | Electrical Rotor Polyalphabetic Cipher      | Python   |  On Deck    |
+|   7   | Enigma Machine  | Electrical Rotor Polyalphabetic Cipher      | Python   |  In-Progress    |
 
 
 
