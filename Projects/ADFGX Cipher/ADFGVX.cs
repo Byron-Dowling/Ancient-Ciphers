@@ -76,7 +76,7 @@
                             D       F
 
                 Final Encrypted String:
-                    FDFGGAAGFAFXDAFVVXAAFVGXAFGGFADFDAAGADFDXGGGADVADAAGFFDGGAGDDD
+                    
 
 */
 
@@ -99,6 +99,30 @@ class Program
     private Dictionary <char, string> ADFGVX_Lookup = new Dictionary <char, string> ();
     private Dictionary <char, int> Column_Lookup = new Dictionary<char, int> ();
     private List<string> CT = new List<string>();
+
+    // Default Constructor
+    public ADFGVX() {
+        // If no parameters are passed in, user is prompted to set them
+        this.setKeys();
+        this.setMessage();
+
+        // Uppercasing everything
+        this.key1 = this.key1.ToUpper();
+        this.key2 = this.key2.ToUpper();
+        this.plaintext = this.plaintext.ToUpper();
+
+        // Initializing strings to empty strings
+        this.ciphertext = "";
+        this.tempcipherstring = "";
+        this.polybiusstring = "";
+        this.PolybiusSquare[0,0] = ' ';
+
+        // Setting the ADFGVX Border in the Polybius Square
+        for (int i = 1; i < 7; i++) {
+            this.PolybiusSquare[0, i] = this.header[i-1];
+            this.PolybiusSquare[i, 0] = this.header[i-1];
+        }
+    }
 
 
     // Overloaded Constructor
@@ -288,18 +312,19 @@ class Program
 
       dynamic sortedString = SortString(this.key2);
 
-      for (int i = 0; i < sortedString.Length; i++) {
-        KW2.Add(sortedString[i], i);
+      for (int i = 0; i < this.key2.Length; i++) {
+        KW2.Add(this.key2[i], i);
       }
-
     
       for (int i = 0; i < sortedString.Length; i++) {
 
         foreach(string word in this.CT) {
 
-          dynamic index = KW2[sortedString[i]];
-            if (word[index] != ' ') {
-                this.ciphertext += word[index];
+          dynamic index = sortedString[i];
+          dynamic fetch = KW2[index];
+          
+            if (word[fetch] != ' ') {
+                this.ciphertext += word[fetch];
             }
         }
       }
@@ -332,11 +357,26 @@ class Program
         }
     }
 
-    public void setKeys(string k1, string k2) {
+
+    // If no parameters are provided and default constructor is invoked this 
+    // method is called to set the keys
+    public void setKeys() {
+        string k1 = "";
+        string k2 = "";
+
+        Console.WriteLine("Enter the first encryption key:");
+        k1 = Console.ReadLine();
+
+        Console.WriteLine("Enter the second encryption key:");
+        k2 = Console.ReadLine();
+
         this.key1 = k1;
         this.key2 = k2;
     }
 
+
+    // If no parameters are provided and default constructor is invoked this 
+    // method is called to set the message
     public void setMessage(string message = "") {
         if (message == "") {
             string input;
@@ -351,7 +391,8 @@ class Program
   public static void Main (string[] args) 
   {
     ADFGVX C1 = new ADFGVX("horcrux", "lumos", "I solemnly swear that I am up to no good");
-
+    // ADFGVX C1 =  new ADFGVX();
+    
     C1.buildPolybiusString();
     C1.SanityCheck();
     C1.buildLookupTable();
