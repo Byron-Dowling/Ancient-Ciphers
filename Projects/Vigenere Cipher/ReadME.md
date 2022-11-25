@@ -21,12 +21,19 @@ The Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple 
 
 ### Approach:
 
-The end goal of this program is to allow the user to select the method of how they want to solve the cipher. For now, the current approach is to perform an index of coincidence analysis on the encrypted text to determine the key length. Upon completion, the program will perform a dictionary attack on the key pulling words from the dictionary that are of the same length as the key length that scored the highest I.O.C value. Another approach is to also calculate the I.O.C value of the most likely key length and attempt to crack a single sequence of the message and narrow down the shift possibilities. From here, all the narrowed down shifts will be attempted and then the words will be looked up in a Hash Table to see if they are english matches. 
+The current approach is to perform an index of coincidence analysis on the encrypted text to determine the key length. Upon completion, the program will perform a dictionary attack on the key pulling words from the dictionary that are of the same length as the key length that scored the highest I.O.C value. Results of the dictionary attack are scored and theoretically the highest scoring result will be the plaintext result.
 
-### Current Working Approach
-- Give the program a large encrypted text. The larger the text, the more likely the Index of Coincidence will accurately find the key length.
-- Assuming the key is a dictionary word and the I.O.C was calculated correctly, the program will dictionary attack the key and then check and sort the results in order of I.O.C value. The result with the highest I.O.C value will most likely be the one that is english and the proper decrypted text.
-- Currently the Program should work for larger examples as seen below
-- Replit Link for project: https://replit.com/join/bgwpreviqj-byrondowling
+### Strengths
+- Is bulletproof accurate on large texts
+- Is very fast as average results are around 4 seconds
 
-![VC3](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Vigenere%20Cipher/Vigenere%20Snippet%203.JPG?raw=true)
+### Weaknesses
+- Current approach fails on very short messages
+- Assumes that the key is a dictionary word and not some scrambled nonsense
+
+### Anticipated/Potential Revisions
+- Attack shorter messages using CUDA for number crunching
+- Perform other cryptanalysis techniques such as partial key breaking by decrypting shorter words and phrases.
+
+
+![VC3](https://github.com/Byron-Dowling/Assets/blob/main/Images/Vigenere.jpg?raw=true)
