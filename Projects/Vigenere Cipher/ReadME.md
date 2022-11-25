@@ -8,19 +8,15 @@ The Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple 
 
 |   #    | File                    | Description                                        |
 | :---:  | ----------------------- | -------------------------------------------------- |
-|   1    | Crypto5.cpp             | Main Driver of the Project                         |
-|   2    | Crypto5 Classes.h       | Header File with Several Class Definitions         |
-|   3    | Crypto5 Methods.cpp     | Class Methods and Implementation                   |
-|   4    | Hash.hpp                | Helper Class to Implement Hash Table               |
-|   5    | Tabula Recta.hpp        | Helper Class to Implement Tabula Recta Table       |
-|   6    | Timer Clock.hpp         | Helper Class for Timing Processes                  |
-|   7    | VCT1.txt                | Input file that was used to test                   |
-|   8    | VCT2.txt                | Input file that was used to test                   |
-|   9    | VCT3.txt                | Input file that was used to test                   |
-|   10   | VCT4.txt                | Input file that was used to test                   |
-|   11   | VCT5.txt                | Input file that was used to test                   |
-|   12   | Words.txt               | Dictionary File of 134K English Words              |
-|   13   | Dictionary.txt          | Larger Dictionary File of 466K English Words       |
+|   1    | Vigenere.cpp            | Main Driver of the Project                         |
+|   2    | VigenereClass.hpp       | Header File with classes and implementation        |
+|   3    | VCT1.txt                | Input file that was used to test                   |
+|   4    | VCT2.txt                | Input file that was used to test                   |
+|   5    | VCT3.txt                | Input file that was used to test                   |
+|   6    | VCT4.txt                | Input file that was used to test                   |
+|   7    | VCT5.txt                | Input file that was used to test                   |
+|   8    | Words.txt               | Dictionary File of 134K English Words              |
+|   9    | Dictionary.txt          | Larger Dictionary File of 466K English Words       |
 
 
 ### Approach:
@@ -31,6 +27,6 @@ The end goal of this program is to allow the user to select the method of how th
 - Give the program a large encrypted text. The larger the text, the more likely the Index of Coincidence will accurately find the key length.
 - Assuming the key is a dictionary word and the I.O.C was calculated correctly, the program will dictionary attack the key and then check and sort the results in order of I.O.C value. The result with the highest I.O.C value will most likely be the one that is english and the proper decrypted text.
 - Currently the Program should work for larger examples as seen below
-- Replit Link for project: https://replit.com/@ByronDowling/Vigenere-Cracking-C#main.cpp
+- Replit Link for project: https://replit.com/join/bgwpreviqj-byrondowling
 
 ![VC3](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/Vigenere%20Cipher/Vigenere%20Snippet%203.JPG?raw=true)
