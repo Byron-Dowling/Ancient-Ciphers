@@ -30,3 +30,6 @@ Collection of programs that implement various ancient ciphers
 ### ADFGX Cipher
 ![AD1](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%2010.JPG?raw=true)
 ![AD2](https://github.com/Byron-Dowling/Ancient-Ciphers/blob/main/Projects/ADFGX%20Cipher/ADFGX%20Snippet%2011.JPG?raw=true)
+
+### Affine Cipher
+![AC](https://media.geeksforgeeks.org/wp-content/uploads/affin-cipher.png)
