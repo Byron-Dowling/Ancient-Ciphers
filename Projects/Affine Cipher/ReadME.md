@@ -11,3 +11,6 @@ An Affine cipher is a type of substitution cipher that utilizes two integer valu
 - The cipher is not secure at all as it is susceptible to frequency analysis
 - If spaces are preserved, then it is vulnerable to short letter bruteforce attacks
   - If two letters are successfully decrypted, the formula can be derived and then the entire message can be cracked.
+  
+### Extras
+- [Windows Forms Cipher GUI Project](https://github.com/Byron-Dowling/5113-APLC-Dowling/tree/main/Assignments/Windows%20Forms%20C%23)
